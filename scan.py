@@ -14,6 +14,22 @@ from hgb import features, features_and_labels, parameters
 from market_data import exchange, refresh
 
 BASE = Path(__file__).resolve().parent
+BACKTEST_OVERVIEW = """## 近一年回测总览
+
+回测区间 **2025-11-07 至 2026-11-06** · 各策略原始仓位口径 · 单笔为已平仓交易净收益均值。
+
+| 策略 | 起始资金 | 账户收益 | 最大回撤 | 夏普 | 平仓笔数 | 胜率 | 单笔 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| P2 首板低开 | 20 万元 | +76.20% | -28.84% | 1.40 | 198 | 48.48% | +0.69% |
+| H1 BF 主线／FB 补位 | 4 万元 | +77.32% | -8.28% | 3.75 | 167 | 64.67% | +2.24% |
+| 趋势 1 双门控稳健 | 6 万元 | +26.76% | -3.77% | 2.29 | 78 | 60.26% | +2.25% |
+| 趋势 2 无门控稳健 | 6 万元 | +33.42% | -6.65% | 2.04 | 181 | 53.59% | +1.12% |
+| 趋势 3 双门控三核心 | 6 万元 | +23.65% | -4.62% | 2.15 | 73 | 58.90% | +2.12% |
+| 趋势 4 双门控自适应退出 | 6 万元 | +37.26% | -4.77% | 2.44 | 78 | 47.44% | +3.06% |
+| HGB 稳健 Top3（23 因子重建） | 20 万元 | +22.54% | -13.42% | 1.52 | 178 | 56.18% | +1.60% |
+
+"""
+
 TITLES = {
     'P2':'P2 首板低开', 'H1':'H1 BF主线 / FB补位',
     'S2_1':'趋势1 双门控稳健', 'S2_2':'趋势2 无门控稳健',
@@ -119,6 +135,7 @@ def publish(asof, next_day, sections, quality):
                  quality=quality,strategies=sections)
     lines=[f'# {asof} 综合策略候选', '',f'下一交易日 **{next_day}** · 主板日线覆盖 **{quality["coverage"]}** 只。', '',
            '每路展示前5名或前5个观察候选，HGB展示Top3。完整候选见同日期JSON。', '']
+    lines[2:2] = BACKTEST_OVERVIEW.splitlines()
     for key,s in sections.items():
         lines.extend([f'## {s["title"]} · {s["status"]}', '', s['note'], ''])
         if s['candidates']:
