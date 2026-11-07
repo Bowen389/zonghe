@@ -103,27 +103,28 @@ def scan(p, hs, zz, asof, next_day):
                 [candidate(x,'可复核' if active else '观察',getattr(x,field)) for x in rows.itertuples(index=False)])
 
     try:
-        if not ma20:
-            section('HGB','门控关闭','沪深300收盘未高于MA20，本日无执行候选。',[])
-        else:
-            frozen=universe('v3')
-            coverage=today.code.isin(frozen).sum()
-            if coverage<.90*len(frozen):
-                raise ValueError(f'冻结股票池覆盖 {coverage}/{len(frozen)}，低于90%')
-            f=features_and_labels(p[p.date.le(asof)],hs.loc['2024-02-01':].index,frozen)
-            next_month=next_day[:7]
-            sessions=hs.index.to_series()
-            first_entry=sessions[sessions.str[:7].eq(next_month)]
-            first_signal=asof if first_entry.empty else hs.index[hs.index.get_loc(first_entry.iloc[0])-1]
-            train=f[f.label_end.lt(first_signal)&f.target.notna()]
-            current=f[f.date.eq(asof)].copy()
-            if len(train)<10000 or current.empty:
-                raise ValueError(f'HGB训练或当日评分样本不足：{len(train)} / {len(current)}')
-            model=HistGradientBoostingRegressor(**parameters).fit(train[features],train.target)
-            current['score']=model.predict(current[features])
-            top=current.sort_values(['score','code'],ascending=[False,True]).head(3)
-            top=top[['code','score']].merge(today[['code','name','c']],on='code',validate='one_to_one')
-            section('HGB','待开盘',f'沪深300 MA20通过，冻结V3池，逐月训练至 {train.label_end.max()}，分数为预期净收益。E开盘复核可成交性。', [candidate(x,'Top3',x.score) for x in top.itertuples(index=False)])
+        frozen=universe('v3')
+        coverage=today.code.isin(frozen).sum()
+        if coverage<.90*len(frozen):
+            raise ValueError(f'冻结股票池覆盖 {coverage}/{len(frozen)}，低于90%')
+        f=features_and_labels(p[p.date.le(asof)],hs.loc['2024-02-01':].index,frozen)
+        next_month=next_day[:7]
+        sessions=hs.index.to_series()
+        first_entry=sessions[sessions.str[:7].eq(next_month)]
+        first_signal=asof if first_entry.empty else hs.index[hs.index.get_loc(first_entry.iloc[0])-1]
+        train=f[f.label_end.lt(first_signal)&f.target.notna()]
+        current=f[f.date.eq(asof)].copy()
+        if len(train)<10000 or current.empty:
+            raise ValueError(f'HGB训练或当日评分样本不足：{len(train)} / {len(current)}')
+        model=HistGradientBoostingRegressor(**parameters).fit(train[features],train.target)
+        current['score']=model.predict(current[features])
+        top=current.sort_values(['score','code'],ascending=[False,True]).head(3)
+        top=top[['code','score']].merge(today[['code','name','c']],on='code',validate='one_to_one')
+        status = '待开盘' if ma20 else '门控关闭'
+        route = 'Top3' if ma20 else '仅观察'
+        gate_note = '沪深300 MA20通过，E开盘复核可成交性。' if ma20 else '沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。'
+        note = f'{gate_note} 冻结V3池，逐月训练至 {train.label_end.max()}，分数为预期净收益。'
+        section('HGB',status,note,[candidate(x,route,x.score) for x in top.itertuples(index=False)])
     except (ValueError,RuntimeError) as error:
         section('HGB','数据异常',str(error),[])
     return out
