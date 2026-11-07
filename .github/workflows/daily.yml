@@ -1,0 +1,57 @@
+name: 综合策略盘后候选
+on:
+  schedule:
+    - cron: '50 8 * * 1-5'
+    - cron: '30 9 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '北京时间交易日 YYYY-MM-DD，留空用当天'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths: ['scan.py', 'features.py', 'market_data.py', 'hgb.py', 'requirements.txt', 'universe/**', '.github/workflows/daily.yml']
+permissions:
+  contents: write
+concurrency:
+  group: zonghe-daily-scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    env:
+      TZ: Asia/Shanghai
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - run: git pull --ff-only origin main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 扫描各策略
+        id: scan
+        env:
+          REPORT_DATE: ${{ inputs.date }}
+          TRIGGER: ${{ github.event_name }}
+        run: |
+          args=()
+          if [ -n "$REPORT_DATE" ]; then args+=(--date "$REPORT_DATE"); fi
+          if [ "$TRIGGER" = schedule ]; then args+=(--retry); fi
+          python scan.py "${args[@]}"
+      - name: 发布报告
+        if: always() && (steps.scan.outcome == 'success' || steps.scan.outcome == 'failure')
+        run: |
+          git add reports/
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Publish consolidated candidate report"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
