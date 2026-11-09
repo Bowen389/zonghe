@@ -1,0 +1,523 @@
+{
+  "date": "2026-11-09",
+  "next_session": "2026-11-10",
+  "updated_at": "2026-11-09T22:52:05+08:00",
+  "quality": {
+    "coverage": 3191,
+    "missing": 118,
+    "source": "daily"
+  },
+  "strategies": {
+    "P2": {
+      "title": "P2 首板低开",
+      "status": "待开盘",
+      "note": "展示顺序为成交额参考。E开盘确认 −5% < 缺口 ≤ −2%，缺口最深优先，同缺口按代码，正式只取1只。",
+      "candidates": [
+        {
+          "code": "002708",
+          "name": "光洋股份",
+          "route": "待缺口",
+          "close": 21.97,
+          "score": null
+        },
+        {
+          "code": "000823",
+          "name": "超声电子",
+          "route": "待缺口",
+          "close": 17.86,
+          "score": null
+        },
+        {
+          "code": "600715",
+          "name": "文投控股",
+          "route": "待缺口",
+          "close": 2.59,
+          "score": null
+        },
+        {
+          "code": "002931",
+          "name": "锋龙股份",
+          "route": "待缺口",
+          "close": 43.86,
+          "score": null
+        },
+        {
+          "code": "000530",
+          "name": "冰山冷热",
+          "route": "待缺口",
+          "close": 9.57,
+          "score": null
+        },
+        {
+          "code": "600121",
+          "name": "郑州煤电",
+          "route": "待缺口",
+          "close": 4.73,
+          "score": null
+        },
+        {
+          "code": "603683",
+          "name": "晶华新材",
+          "route": "待缺口",
+          "close": 18.13,
+          "score": null
+        },
+        {
+          "code": "002149",
+          "name": "西部材料",
+          "route": "待缺口",
+          "close": 41.51,
+          "score": null
+        },
+        {
+          "code": "600792",
+          "name": "云煤能源",
+          "route": "待缺口",
+          "close": 4.2,
+          "score": null
+        },
+        {
+          "code": "002565",
+          "name": "顺灏股份",
+          "route": "待缺口",
+          "close": 10.54,
+          "score": null
+        },
+        {
+          "code": "603703",
+          "name": "盛洋科技",
+          "route": "待缺口",
+          "close": 11.1,
+          "score": null
+        },
+        {
+          "code": "002488",
+          "name": "金固股份",
+          "route": "待缺口",
+          "close": 7.48,
+          "score": null
+        },
+        {
+          "code": "600776",
+          "name": "东方通信",
+          "route": "待缺口",
+          "close": 12.22,
+          "score": null
+        },
+        {
+          "code": "002124",
+          "name": "天邦食品",
+          "route": "待缺口",
+          "close": 2.2,
+          "score": null
+        },
+        {
+          "code": "600408",
+          "name": "安泰集团",
+          "route": "待缺口",
+          "close": 3.32,
+          "score": null
+        },
+        {
+          "code": "600853",
+          "name": "龙建股份",
+          "route": "待缺口",
+          "close": 3.85,
+          "score": null
+        },
+        {
+          "code": "000026",
+          "name": "飞亚达",
+          "route": "待缺口",
+          "close": 20.19,
+          "score": null
+        },
+        {
+          "code": "600609",
+          "name": "金杯汽车",
+          "route": "待缺口",
+          "close": 3.48,
+          "score": null
+        },
+        {
+          "code": "001388",
+          "name": "信通电子",
+          "route": "待缺口",
+          "close": 23.29,
+          "score": null
+        },
+        {
+          "code": "002596",
+          "name": "海南瑞泽",
+          "route": "待缺口",
+          "close": 3.48,
+          "score": null
+        },
+        {
+          "code": "002347",
+          "name": "泰尔股份",
+          "route": "待缺口",
+          "close": 7.0,
+          "score": null
+        },
+        {
+          "code": "603706",
+          "name": "东方环宇",
+          "route": "待缺口",
+          "close": 20.19,
+          "score": null
+        },
+        {
+          "code": "002864",
+          "name": "盘龙药业",
+          "route": "待缺口",
+          "close": 22.21,
+          "score": null
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "待缺口",
+          "close": 17.39,
+          "score": null
+        },
+        {
+          "code": "001226",
+          "name": "拓山重工",
+          "route": "待缺口",
+          "close": 38.01,
+          "score": null
+        },
+        {
+          "code": "001379",
+          "name": "腾达科技",
+          "route": "待缺口",
+          "close": 15.85,
+          "score": null
+        }
+      ]
+    },
+    "H1": {
+      "title": "H1 BF主线 / FB补位",
+      "status": "待开盘",
+      "note": "BF门控关闭，FB门控通过。BF先按档位和20日均额，开盘缺口 (−10.1%, +8%]。BF无可执行票才看C2 [−2.5%, +5%]、C1 [−5%, −2%]，同类按缺口升序，合计只取1只。FB盘后按代码展示，次日才定最终名次。",
+      "candidates": [
+        {
+          "code": "001331",
+          "name": "胜通能源",
+          "route": "FB C2",
+          "close": 31.35,
+          "score": null
+        },
+        {
+          "code": "000026",
+          "name": "飞亚达",
+          "route": "FB C1",
+          "close": 20.19,
+          "score": null
+        },
+        {
+          "code": "000823",
+          "name": "超声电子",
+          "route": "FB C1",
+          "close": 17.86,
+          "score": null
+        },
+        {
+          "code": "001388",
+          "name": "信通电子",
+          "route": "FB C1",
+          "close": 23.29,
+          "score": null
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "FB C1",
+          "close": 17.39,
+          "score": null
+        },
+        {
+          "code": "002488",
+          "name": "金固股份",
+          "route": "FB C1",
+          "close": 7.48,
+          "score": null
+        },
+        {
+          "code": "002596",
+          "name": "海南瑞泽",
+          "route": "FB C1",
+          "close": 3.48,
+          "score": null
+        },
+        {
+          "code": "002638",
+          "name": "勤上股份",
+          "route": "FB C1",
+          "close": 4.33,
+          "score": null
+        },
+        {
+          "code": "002864",
+          "name": "盘龙药业",
+          "route": "FB C1",
+          "close": 22.21,
+          "score": null
+        },
+        {
+          "code": "002913",
+          "name": "奥士康",
+          "route": "FB C1",
+          "close": 58.42,
+          "score": null
+        },
+        {
+          "code": "002931",
+          "name": "锋龙股份",
+          "route": "FB C1",
+          "close": 43.86,
+          "score": null
+        },
+        {
+          "code": "600121",
+          "name": "郑州煤电",
+          "route": "FB C1",
+          "close": 4.73,
+          "score": null
+        },
+        {
+          "code": "600408",
+          "name": "安泰集团",
+          "route": "FB C1",
+          "close": 3.32,
+          "score": null
+        },
+        {
+          "code": "600609",
+          "name": "金杯汽车",
+          "route": "FB C1",
+          "close": 3.48,
+          "score": null
+        },
+        {
+          "code": "600776",
+          "name": "东方通信",
+          "route": "FB C1",
+          "close": 12.22,
+          "score": null
+        },
+        {
+          "code": "600792",
+          "name": "云煤能源",
+          "route": "FB C1",
+          "close": 4.2,
+          "score": null
+        },
+        {
+          "code": "603920",
+          "name": "世运电路",
+          "route": "FB C1",
+          "close": 33.58,
+          "score": null
+        }
+      ]
+    },
+    "S2_1": {
+      "title": "趋势1 双门控稳健",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "600278",
+          "name": "东方创业",
+          "route": "观察",
+          "close": 7.83,
+          "score": 13.122993
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "观察",
+          "close": 5.4,
+          "score": 12.263673
+        },
+        {
+          "code": "002578",
+          "name": "闽发铝业",
+          "route": "观察",
+          "close": 5.51,
+          "score": 11.950099
+        },
+        {
+          "code": "600776",
+          "name": "东方通信",
+          "route": "观察",
+          "close": 12.22,
+          "score": 11.126558
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "观察",
+          "close": 17.39,
+          "score": 10.711756
+        }
+      ]
+    },
+    "S2_2": {
+      "title": "趋势2 无门控稳健",
+      "status": "待开盘",
+      "note": "按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "600278",
+          "name": "东方创业",
+          "route": "可复核",
+          "close": 7.83,
+          "score": 13.122993
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "可复核",
+          "close": 5.4,
+          "score": 12.263673
+        },
+        {
+          "code": "002578",
+          "name": "闽发铝业",
+          "route": "可复核",
+          "close": 5.51,
+          "score": 11.950099
+        },
+        {
+          "code": "600776",
+          "name": "东方通信",
+          "route": "可复核",
+          "close": 12.22,
+          "score": 11.126558
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "可复核",
+          "close": 17.39,
+          "score": 10.711756
+        }
+      ]
+    },
+    "S2_3": {
+      "title": "趋势3 双门控三核心",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "600278",
+          "name": "东方创业",
+          "route": "观察",
+          "close": 7.83,
+          "score": 13.550449
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "观察",
+          "close": 5.4,
+          "score": 13.169204
+        },
+        {
+          "code": "002578",
+          "name": "闽发铝业",
+          "route": "观察",
+          "close": 5.51,
+          "score": 13.097709
+        },
+        {
+          "code": "000525",
+          "name": "红太阳",
+          "route": "观察",
+          "close": 5.52,
+          "score": 10.936784
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "观察",
+          "close": 17.39,
+          "score": 10.843299
+        }
+      ]
+    },
+    "S2_4": {
+      "title": "趋势4 双门控自适应退出",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。与趋势1同入口，退出规则不同。",
+      "candidates": [
+        {
+          "code": "600278",
+          "name": "东方创业",
+          "route": "观察",
+          "close": 7.83,
+          "score": 13.122993
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "观察",
+          "close": 5.4,
+          "score": 12.263673
+        },
+        {
+          "code": "002578",
+          "name": "闽发铝业",
+          "route": "观察",
+          "close": 5.51,
+          "score": 11.950099
+        },
+        {
+          "code": "600776",
+          "name": "东方通信",
+          "route": "观察",
+          "close": 12.22,
+          "score": 11.126558
+        },
+        {
+          "code": "001390",
+          "name": "古麒绒材",
+          "route": "观察",
+          "close": 17.39,
+          "score": 10.711756
+        }
+      ]
+    },
+    "HGB": {
+      "title": "HGB 稳健 Top3（23因子重建）",
+      "status": "门控关闭",
+      "note": "沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。 冻结V3池，逐月训练至 2026-10-29，分数为预期净收益。",
+      "candidates": [
+        {
+          "code": "001219",
+          "name": "青岛食品",
+          "route": "仅观察",
+          "close": 24.06,
+          "score": 0.02925
+        },
+        {
+          "code": "601188",
+          "name": "龙江交通",
+          "route": "仅观察",
+          "close": 4.19,
+          "score": 0.026268
+        },
+        {
+          "code": "600261",
+          "name": "阳光照明",
+          "route": "仅观察",
+          "close": 5.32,
+          "score": 0.021991
+        }
+      ]
+    }
+  }
+}
