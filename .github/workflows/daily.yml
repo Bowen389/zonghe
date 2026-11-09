@@ -1,8 +1,10 @@
 name: 综合策略盘后候选
 on:
   schedule:
-    - cron: '50 8 * * 1-5'
-    - cron: '30 9 * * 1-5'
+    - cron: '50 16 * * 1-5'
+      timezone: Asia/Shanghai
+    - cron: '30 17 * * 1-5'
+      timezone: Asia/Shanghai
   workflow_dispatch:
     inputs:
       date:
