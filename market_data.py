@@ -42,7 +42,13 @@ def exchange(asof):
         stocks = bs.query_all_stock(day=asof)
         if stocks.error_code != '0':
             raise RuntimeError(stocks.error_msg)
-        data = stocks.get_data()
+        # Build one DataFrame after paging. BaoStock get_data uses pandas' removed append API.
+        records = []
+        while stocks.next():
+            records.append(stocks.get_row_data())
+        if stocks.error_code != '0':
+            raise RuntimeError(stocks.error_msg)
+        data = pd.DataFrame.from_records(records, columns=stocks.fields)
         data['code'] = data.code.str.split('.').str[-1]
         data = data[data.code.str.fullmatch(MAIN)&data.tradeStatus.eq('1')]
         if len(data)<2500:
