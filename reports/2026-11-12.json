@@ -1,0 +1,390 @@
+{
+  "date": "2026-11-12",
+  "next_session": "2026-11-13",
+  "updated_at": "2026-11-12T20:33:39+08:00",
+  "quality": {
+    "coverage": 3191,
+    "missing": 118,
+    "source": "daily"
+  },
+  "strategies": {
+    "P2": {
+      "title": "P2 首板低开",
+      "status": "待开盘",
+      "note": "展示顺序为成交额参考。E开盘确认 −5% < 缺口 ≤ −2%，缺口最深优先，同缺口按代码，正式只取1只。",
+      "candidates": [
+        {
+          "code": "601606",
+          "name": "长城军工",
+          "route": "待缺口",
+          "close": 32.62,
+          "score": null
+        },
+        {
+          "code": "601566",
+          "name": "九牧王",
+          "route": "待缺口",
+          "close": 12.47,
+          "score": null
+        },
+        {
+          "code": "002693",
+          "name": "双成药业",
+          "route": "待缺口",
+          "close": 8.73,
+          "score": null
+        },
+        {
+          "code": "600853",
+          "name": "龙建股份",
+          "route": "待缺口",
+          "close": 4.21,
+          "score": null
+        },
+        {
+          "code": "600467",
+          "name": "好当家",
+          "route": "待缺口",
+          "close": 2.48,
+          "score": null
+        },
+        {
+          "code": "603175",
+          "name": "超颖电子",
+          "route": "待缺口",
+          "close": 99.54,
+          "score": null
+        },
+        {
+          "code": "002021",
+          "name": "中捷资源",
+          "route": "待缺口",
+          "close": 2.63,
+          "score": null
+        },
+        {
+          "code": "600569",
+          "name": "安阳钢铁",
+          "route": "待缺口",
+          "close": 2.0,
+          "score": null
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "待缺口",
+          "close": 6.34,
+          "score": null
+        },
+        {
+          "code": "603958",
+          "name": "哈森股份",
+          "route": "待缺口",
+          "close": 18.38,
+          "score": null
+        },
+        {
+          "code": "002205",
+          "name": "国统股份",
+          "route": "待缺口",
+          "close": 11.75,
+          "score": null
+        },
+        {
+          "code": "605169",
+          "name": "洪通燃气",
+          "route": "待缺口",
+          "close": 13.55,
+          "score": null
+        },
+        {
+          "code": "002628",
+          "name": "成都路桥",
+          "route": "待缺口",
+          "close": 4.74,
+          "score": null
+        },
+        {
+          "code": "600857",
+          "name": "宁波中百",
+          "route": "待缺口",
+          "close": 15.0,
+          "score": null
+        },
+        {
+          "code": "001358",
+          "name": "兴欣新材",
+          "route": "待缺口",
+          "close": 24.22,
+          "score": null
+        }
+      ]
+    },
+    "H1": {
+      "title": "H1 BF主线 / FB补位",
+      "status": "待开盘",
+      "note": "BF门控通过，FB门控通过。BF先按档位和20日均额，开盘缺口 (−10.1%, +8%]。BF无可执行票才看C2 [−2.5%, +5%]、C1 [−5%, −2%]，同类按缺口升序，合计只取1只。FB盘后按代码展示，次日才定最终名次。",
+      "candidates": [
+        {
+          "code": "002172",
+          "name": "澳洋健康",
+          "route": "BF A",
+          "close": 6.66,
+          "score": 3.0
+        },
+        {
+          "code": "002205",
+          "name": "国统股份",
+          "route": "FB C1",
+          "close": 11.75,
+          "score": null
+        },
+        {
+          "code": "002628",
+          "name": "成都路桥",
+          "route": "FB C1",
+          "close": 4.74,
+          "score": null
+        },
+        {
+          "code": "002693",
+          "name": "双成药业",
+          "route": "FB C1",
+          "close": 8.73,
+          "score": null
+        },
+        {
+          "code": "601606",
+          "name": "长城军工",
+          "route": "FB C1",
+          "close": 32.62,
+          "score": null
+        },
+        {
+          "code": "603175",
+          "name": "超颖电子",
+          "route": "FB C1",
+          "close": 99.54,
+          "score": null
+        },
+        {
+          "code": "603958",
+          "name": "哈森股份",
+          "route": "FB C1",
+          "close": 18.38,
+          "score": null
+        },
+        {
+          "code": "605169",
+          "name": "洪通燃气",
+          "route": "FB C1",
+          "close": 13.55,
+          "score": null
+        },
+        {
+          "code": "605222",
+          "name": "起帆电缆",
+          "route": "FB C1",
+          "close": 20.55,
+          "score": null
+        }
+      ]
+    },
+    "S2_1": {
+      "title": "趋势1 双门控稳健",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "观察",
+          "close": 13.17,
+          "score": 17.408736
+        },
+        {
+          "code": "002148",
+          "name": "北纬科技",
+          "route": "观察",
+          "close": 7.23,
+          "score": 12.336988
+        },
+        {
+          "code": "000026",
+          "name": "飞亚达",
+          "route": "观察",
+          "close": 24.34,
+          "score": 11.747404
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "观察",
+          "close": 7.18,
+          "score": 11.470817
+        },
+        {
+          "code": "002110",
+          "name": "三钢闽光",
+          "route": "观察",
+          "close": 3.03,
+          "score": 11.427516
+        }
+      ]
+    },
+    "S2_2": {
+      "title": "趋势2 无门控稳健",
+      "status": "待开盘",
+      "note": "按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "可复核",
+          "close": 13.17,
+          "score": 17.408736
+        },
+        {
+          "code": "002148",
+          "name": "北纬科技",
+          "route": "可复核",
+          "close": 7.23,
+          "score": 12.336988
+        },
+        {
+          "code": "000026",
+          "name": "飞亚达",
+          "route": "可复核",
+          "close": 24.34,
+          "score": 11.747404
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "可复核",
+          "close": 7.18,
+          "score": 11.470817
+        },
+        {
+          "code": "002110",
+          "name": "三钢闽光",
+          "route": "可复核",
+          "close": 3.03,
+          "score": 11.427516
+        }
+      ]
+    },
+    "S2_3": {
+      "title": "趋势3 双门控三核心",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "观察",
+          "close": 13.17,
+          "score": 16.11881
+        },
+        {
+          "code": "002148",
+          "name": "北纬科技",
+          "route": "观察",
+          "close": 7.23,
+          "score": 12.821098
+        },
+        {
+          "code": "603135",
+          "name": "中重科技",
+          "route": "观察",
+          "close": 10.18,
+          "score": 11.580817
+        },
+        {
+          "code": "603536",
+          "name": "惠发食品",
+          "route": "观察",
+          "close": 13.04,
+          "score": 11.533211
+        },
+        {
+          "code": "002110",
+          "name": "三钢闽光",
+          "route": "观察",
+          "close": 3.03,
+          "score": 11.378009
+        }
+      ]
+    },
+    "S2_4": {
+      "title": "趋势4 双门控自适应退出",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。与趋势1同入口，退出规则不同。",
+      "candidates": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "观察",
+          "close": 13.17,
+          "score": 17.408736
+        },
+        {
+          "code": "002148",
+          "name": "北纬科技",
+          "route": "观察",
+          "close": 7.23,
+          "score": 12.336988
+        },
+        {
+          "code": "000026",
+          "name": "飞亚达",
+          "route": "观察",
+          "close": 24.34,
+          "score": 11.747404
+        },
+        {
+          "code": "600327",
+          "name": "大东方",
+          "route": "观察",
+          "close": 7.18,
+          "score": 11.470817
+        },
+        {
+          "code": "002110",
+          "name": "三钢闽光",
+          "route": "观察",
+          "close": 3.03,
+          "score": 11.427516
+        }
+      ]
+    },
+    "HGB": {
+      "title": "HGB 稳健 Top3（23因子重建）",
+      "status": "门控关闭",
+      "note": "沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。 冻结V3池，逐月训练至 2026-10-29，分数为预期净收益。",
+      "candidates": [
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "仅观察",
+          "close": 13.17,
+          "score": 0.028776
+        },
+        {
+          "code": "600261",
+          "name": "阳光照明",
+          "route": "仅观察",
+          "close": 6.37,
+          "score": 0.021401
+        },
+        {
+          "code": "001219",
+          "name": "青岛食品",
+          "route": "仅观察",
+          "close": 23.11,
+          "score": 0.02068
+        }
+      ]
+    }
+  }
+}
