@@ -1,6 +1,6 @@
 """Publish independent next-session candidate lists for seven strategies."""
 import argparse
-from datetime import datetime
+from datetime import date, datetime, time, timedelta
 import json
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -155,11 +155,44 @@ def publish(asof, next_day, sections, quality):
         (folder/f'{stem}.md').write_text(report,encoding='utf-8')
         existing.write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
 
+def latest_closed_session(now):
+    import baostock as bs
+
+    cutoff = now.date() - timedelta(days=now.time() < time(15))
+    login = bs.login()
+    if login.error_code != '0':
+        raise RuntimeError(f'交易日历登录失败: {login.error_msg}')
+    try:
+        rows = bs.query_trade_dates(
+            start_date=(cutoff - timedelta(days=30)).isoformat(),
+            end_date=cutoff.isoformat(),
+        )
+        if rows.error_code != '0':
+            raise RuntimeError(rows.error_msg)
+        sessions = rows.get_data()
+        if rows.error_code != '0':
+            raise RuntimeError(rows.error_msg)
+        closed = sessions.loc[sessions.is_trading_day.eq('1'), 'calendar_date']
+        if closed.empty:
+            raise RuntimeError(f'交易日历缺少截至 {cutoff} 的已收盘交易日')
+        return closed.max()
+    finally:
+        bs.logout()
+
+
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--date',default=datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat())
+    parser.add_argument('--date', type=date.fromisoformat, help='指定已收盘交易日')
     parser.add_argument('--retry',action='store_true')
     args=parser.parse_args()
+    now = datetime.now(ZoneInfo('Asia/Shanghai'))
+    if args.date is None:
+        args.date = latest_closed_session(now)
+    else:
+        if args.date > now.date() or (args.date == now.date() and now.time() < time(15)):
+            parser.error('--date 必须是已收盘日期')
+        args.date = args.date.isoformat()
+    print(f'扫描交易日 {args.date}', flush=True)
     path=BASE/'reports'/f'{args.date}.json'
     if args.retry and path.exists():
         previous=json.loads(path.read_text())
