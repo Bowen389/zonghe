@@ -1,0 +1,390 @@
+{
+  "date": "2026-11-16",
+  "next_session": "2026-11-17",
+  "updated_at": "2026-11-16T17:38:42+08:00",
+  "quality": {
+    "coverage": 3190,
+    "missing": 118,
+    "source": "daily"
+  },
+  "strategies": {
+    "P2": {
+      "title": "P2 首板低开",
+      "status": "待开盘",
+      "note": "展示顺序为成交额参考。E开盘确认 −5% < 缺口 ≤ −2%，缺口最深优先，同缺口按代码，正式只取1只。",
+      "candidates": [
+        {
+          "code": "601929",
+          "name": "吉视传媒",
+          "route": "待缺口",
+          "close": 2.96,
+          "score": null
+        },
+        {
+          "code": "000156",
+          "name": "华数传媒",
+          "route": "待缺口",
+          "close": 8.54,
+          "score": null
+        },
+        {
+          "code": "000628",
+          "name": "高新发展",
+          "route": "待缺口",
+          "close": 46.55,
+          "score": null
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "待缺口",
+          "close": 9.82,
+          "score": null
+        },
+        {
+          "code": "002419",
+          "name": "天虹股份",
+          "route": "待缺口",
+          "close": 5.4,
+          "score": null
+        },
+        {
+          "code": "002035",
+          "name": "华帝股份",
+          "route": "待缺口",
+          "close": 4.68,
+          "score": null
+        },
+        {
+          "code": "002058",
+          "name": "紫竹高科",
+          "route": "待缺口",
+          "close": 22.4,
+          "score": null
+        },
+        {
+          "code": "002861",
+          "name": "瀛通通讯",
+          "route": "待缺口",
+          "close": 13.6,
+          "score": null
+        },
+        {
+          "code": "002356",
+          "name": "鹏飞绿能",
+          "route": "待缺口",
+          "close": 2.52,
+          "score": null
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "待缺口",
+          "close": 36.27,
+          "score": null
+        },
+        {
+          "code": "600822",
+          "name": "上海物贸",
+          "route": "待缺口",
+          "close": 9.45,
+          "score": null
+        },
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "待缺口",
+          "close": 4.31,
+          "score": null
+        },
+        {
+          "code": "600386",
+          "name": "北巴传媒",
+          "route": "待缺口",
+          "close": 3.81,
+          "score": null
+        }
+      ]
+    },
+    "H1": {
+      "title": "H1 BF主线 / FB补位",
+      "status": "待开盘",
+      "note": "BF门控关闭，FB门控通过。BF先按档位和20日均额，开盘缺口 (−10.1%, +8%]。BF无可执行票才看C2 [−2.5%, +5%]、C1 [−5%, −2%]，同类按缺口升序，合计只取1只。FB盘后按代码展示，次日才定最终名次。",
+      "candidates": [
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "FB C1",
+          "close": 4.31,
+          "score": null
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "FB C1",
+          "close": 9.82,
+          "score": null
+        },
+        {
+          "code": "000628",
+          "name": "高新发展",
+          "route": "FB C1",
+          "close": 46.55,
+          "score": null
+        },
+        {
+          "code": "002035",
+          "name": "华帝股份",
+          "route": "FB C1",
+          "close": 4.68,
+          "score": null
+        },
+        {
+          "code": "002861",
+          "name": "瀛通通讯",
+          "route": "FB C1",
+          "close": 13.6,
+          "score": null
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "FB C1",
+          "close": 36.27,
+          "score": null
+        },
+        {
+          "code": "600386",
+          "name": "北巴传媒",
+          "route": "FB C1",
+          "close": 3.81,
+          "score": null
+        },
+        {
+          "code": "600822",
+          "name": "上海物贸",
+          "route": "FB C1",
+          "close": 9.45,
+          "score": null
+        },
+        {
+          "code": "600936",
+          "name": "北投科技",
+          "route": "FB C1",
+          "close": 4.02,
+          "score": null
+        },
+        {
+          "code": "603118",
+          "name": "共进股份",
+          "route": "FB C1",
+          "close": 14.71,
+          "score": null
+        },
+        {
+          "code": "603983",
+          "name": "丸美生物",
+          "route": "FB C1",
+          "close": 26.73,
+          "score": null
+        }
+      ]
+    },
+    "S2_1": {
+      "title": "趋势1 双门控稳健",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "002685",
+          "name": "华东重机",
+          "route": "观察",
+          "close": 6.09,
+          "score": 14.908812
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "route": "观察",
+          "close": 14.1,
+          "score": 14.453199
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "route": "观察",
+          "close": 4.21,
+          "score": 13.606098
+        },
+        {
+          "code": "002748",
+          "name": "世龙实业",
+          "route": "观察",
+          "close": 13.63,
+          "score": 11.916636
+        },
+        {
+          "code": "600386",
+          "name": "北巴传媒",
+          "route": "观察",
+          "close": 3.81,
+          "score": 11.470069
+        }
+      ]
+    },
+    "S2_2": {
+      "title": "趋势2 无门控稳健",
+      "status": "待开盘",
+      "note": "按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "002685",
+          "name": "华东重机",
+          "route": "可复核",
+          "close": 6.09,
+          "score": 14.908812
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "route": "可复核",
+          "close": 14.1,
+          "score": 14.453199
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "route": "可复核",
+          "close": 4.21,
+          "score": 13.606098
+        },
+        {
+          "code": "002748",
+          "name": "世龙实业",
+          "route": "可复核",
+          "close": 13.63,
+          "score": 11.916636
+        },
+        {
+          "code": "600386",
+          "name": "北巴传媒",
+          "route": "可复核",
+          "close": 3.81,
+          "score": 11.470069
+        }
+      ]
+    },
+    "S2_3": {
+      "title": "趋势3 双门控三核心",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "route": "观察",
+          "close": 14.1,
+          "score": 14.403806
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "route": "观察",
+          "close": 4.21,
+          "score": 12.99489
+        },
+        {
+          "code": "002685",
+          "name": "华东重机",
+          "route": "观察",
+          "close": 6.09,
+          "score": 12.721891
+        },
+        {
+          "code": "002148",
+          "name": "北纬科技",
+          "route": "观察",
+          "close": 8.75,
+          "score": 11.939063
+        },
+        {
+          "code": "002748",
+          "name": "世龙实业",
+          "route": "观察",
+          "close": 13.63,
+          "score": 11.544813
+        }
+      ]
+    },
+    "S2_4": {
+      "title": "趋势4 双门控自适应退出",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。与趋势1同入口，退出规则不同。",
+      "candidates": [
+        {
+          "code": "002685",
+          "name": "华东重机",
+          "route": "观察",
+          "close": 6.09,
+          "score": 14.908812
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "route": "观察",
+          "close": 14.1,
+          "score": 14.453199
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "route": "观察",
+          "close": 4.21,
+          "score": 13.606098
+        },
+        {
+          "code": "002748",
+          "name": "世龙实业",
+          "route": "观察",
+          "close": 13.63,
+          "score": 11.916636
+        },
+        {
+          "code": "600386",
+          "name": "北巴传媒",
+          "route": "观察",
+          "close": 3.81,
+          "score": 11.470069
+        }
+      ]
+    },
+    "HGB": {
+      "title": "HGB 稳健 Top3（23因子重建）",
+      "status": "门控关闭",
+      "note": "沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。 冻结V3池，逐月训练至 2026-10-29，分数为预期净收益。",
+      "candidates": [
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "仅观察",
+          "close": 7.67,
+          "score": 0.02971
+        },
+        {
+          "code": "603366",
+          "name": "日出东方",
+          "route": "仅观察",
+          "close": 12.51,
+          "score": 0.022857
+        },
+        {
+          "code": "001219",
+          "name": "青岛食品",
+          "route": "仅观察",
+          "close": 18.72,
+          "score": 0.019361
+        }
+      ]
+    }
+  }
+}
