@@ -1,0 +1,439 @@
+{
+  "date": "2026-11-17",
+  "next_session": "2026-11-18",
+  "updated_at": "2026-11-18T02:09:01+08:00",
+  "quality": {
+    "coverage": 3190,
+    "missing": 121,
+    "source": "daily"
+  },
+  "strategies": {
+    "P2": {
+      "title": "P2 首板低开",
+      "status": "待开盘",
+      "note": "展示顺序为成交额参考。E开盘确认 −5% < 缺口 ≤ −2%，缺口最深优先，同缺口按代码，正式只取1只。",
+      "candidates": [
+        {
+          "code": "600206",
+          "name": "有研新材",
+          "route": "待缺口",
+          "close": 39.33,
+          "score": null
+        },
+        {
+          "code": "600410",
+          "name": "华胜天成",
+          "route": "待缺口",
+          "close": 15.29,
+          "score": null
+        },
+        {
+          "code": "600619",
+          "name": "海立股份",
+          "route": "待缺口",
+          "close": 13.1,
+          "score": null
+        },
+        {
+          "code": "002226",
+          "name": "江南化工",
+          "route": "待缺口",
+          "close": 5.45,
+          "score": null
+        },
+        {
+          "code": "603297",
+          "name": "永新光学",
+          "route": "待缺口",
+          "close": 115.93,
+          "score": null
+        },
+        {
+          "code": "002889",
+          "name": "东方嘉盛",
+          "route": "待缺口",
+          "close": 15.21,
+          "score": null
+        },
+        {
+          "code": "603078",
+          "name": "江化微",
+          "route": "待缺口",
+          "close": 24.54,
+          "score": null
+        },
+        {
+          "code": "002584",
+          "name": "西陇科学",
+          "route": "待缺口",
+          "close": 7.91,
+          "score": null
+        },
+        {
+          "code": "002652",
+          "name": "扬子新材",
+          "route": "待缺口",
+          "close": 4.4,
+          "score": null
+        },
+        {
+          "code": "002912",
+          "name": "中新赛克",
+          "route": "待缺口",
+          "close": 24.33,
+          "score": null
+        },
+        {
+          "code": "603931",
+          "name": "格林达",
+          "route": "待缺口",
+          "close": 27.97,
+          "score": null
+        },
+        {
+          "code": "000707",
+          "name": "双环科技",
+          "route": "待缺口",
+          "close": 4.59,
+          "score": null
+        },
+        {
+          "code": "603206",
+          "name": "嘉环科技",
+          "route": "待缺口",
+          "close": 14.66,
+          "score": null
+        },
+        {
+          "code": "600202",
+          "name": "哈空调",
+          "route": "待缺口",
+          "close": 5.59,
+          "score": null
+        },
+        {
+          "code": "002983",
+          "name": "芯瑞达",
+          "route": "待缺口",
+          "close": 23.95,
+          "score": null
+        },
+        {
+          "code": "002771",
+          "name": "真视通",
+          "route": "待缺口",
+          "close": 11.88,
+          "score": null
+        },
+        {
+          "code": "603030",
+          "name": "全筑股份",
+          "route": "待缺口",
+          "close": 1.94,
+          "score": null
+        }
+      ]
+    },
+    "H1": {
+      "title": "H1 BF主线 / FB补位",
+      "status": "待开盘",
+      "note": "BF门控关闭，FB门控通过。BF先按档位和20日均额，开盘缺口 (−10.1%, +8%]。BF无可执行票才看C2 [−2.5%, +5%]、C1 [−5%, −2%]，同类按缺口升序，合计只取1只。FB盘后按代码展示，次日才定最终名次。",
+      "candidates": [
+        {
+          "code": "002226",
+          "name": "江南化工",
+          "route": "FB C1",
+          "close": 5.45,
+          "score": null
+        },
+        {
+          "code": "002584",
+          "name": "西陇科学",
+          "route": "FB C1",
+          "close": 7.91,
+          "score": null
+        },
+        {
+          "code": "002652",
+          "name": "扬子新材",
+          "route": "FB C1",
+          "close": 4.4,
+          "score": null
+        },
+        {
+          "code": "002771",
+          "name": "真视通",
+          "route": "FB C1",
+          "close": 11.88,
+          "score": null
+        },
+        {
+          "code": "002843",
+          "name": "泰嘉股份",
+          "route": "FB C1",
+          "close": 15.76,
+          "score": null
+        },
+        {
+          "code": "002912",
+          "name": "中新赛克",
+          "route": "FB C1",
+          "close": 24.33,
+          "score": null
+        },
+        {
+          "code": "600202",
+          "name": "哈空调",
+          "route": "FB C1",
+          "close": 5.59,
+          "score": null
+        },
+        {
+          "code": "600206",
+          "name": "有研新材",
+          "route": "FB C1",
+          "close": 39.33,
+          "score": null
+        },
+        {
+          "code": "600619",
+          "name": "海立股份",
+          "route": "FB C1",
+          "close": 13.1,
+          "score": null
+        },
+        {
+          "code": "600770",
+          "name": "综艺股份",
+          "route": "FB C1",
+          "close": 5.53,
+          "score": null
+        },
+        {
+          "code": "603078",
+          "name": "江化微",
+          "route": "FB C1",
+          "close": 24.54,
+          "score": null
+        },
+        {
+          "code": "603206",
+          "name": "嘉环科技",
+          "route": "FB C1",
+          "close": 14.66,
+          "score": null
+        },
+        {
+          "code": "603297",
+          "name": "永新光学",
+          "route": "FB C1",
+          "close": 115.93,
+          "score": null
+        },
+        {
+          "code": "603931",
+          "name": "格林达",
+          "route": "FB C1",
+          "close": 27.97,
+          "score": null
+        }
+      ]
+    },
+    "S2_1": {
+      "title": "趋势1 双门控稳健",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "观察",
+          "close": 4.74,
+          "score": 14.6316
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "观察",
+          "close": 39.9,
+          "score": 13.904291
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "观察",
+          "close": 8.1,
+          "score": 13.425737
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "观察",
+          "close": 10.8,
+          "score": 12.269872
+        },
+        {
+          "code": "002905",
+          "name": "金逸影视",
+          "route": "观察",
+          "close": 10.25,
+          "score": 11.559898
+        }
+      ]
+    },
+    "S2_2": {
+      "title": "趋势2 无门控稳健",
+      "status": "待开盘",
+      "note": "按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "可复核",
+          "close": 4.74,
+          "score": 14.6316
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "可复核",
+          "close": 39.9,
+          "score": 13.904291
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "可复核",
+          "close": 8.1,
+          "score": 13.425737
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "可复核",
+          "close": 10.8,
+          "score": 12.269872
+        },
+        {
+          "code": "002905",
+          "name": "金逸影视",
+          "route": "可复核",
+          "close": 10.25,
+          "score": 11.559898
+        }
+      ]
+    },
+    "S2_3": {
+      "title": "趋势3 双门控三核心",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。",
+      "candidates": [
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "观察",
+          "close": 4.74,
+          "score": 14.994074
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "观察",
+          "close": 39.9,
+          "score": 13.106107
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "观察",
+          "close": 10.8,
+          "score": 12.856027
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "观察",
+          "close": 8.1,
+          "score": 12.715881
+        },
+        {
+          "code": "600936",
+          "name": "北投科技",
+          "route": "观察",
+          "close": 4.42,
+          "score": 11.047605
+        }
+      ]
+    },
+    "S2_4": {
+      "title": "趋势4 双门控自适应退出",
+      "status": "门控关闭",
+      "note": "门控关闭，下面仅作观察。按收盘分展示Top5，执行口径只看Top1，次日开盘缺口须在 [−5%, +6%]。与趋势1同入口，退出规则不同。",
+      "candidates": [
+        {
+          "code": "000521",
+          "name": "长虹美菱",
+          "route": "观察",
+          "close": 4.74,
+          "score": 14.6316
+        },
+        {
+          "code": "002959",
+          "name": "小熊电器",
+          "route": "观察",
+          "close": 39.9,
+          "score": 13.904291
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "观察",
+          "close": 8.1,
+          "score": 13.425737
+        },
+        {
+          "code": "000533",
+          "name": "顺钠股份",
+          "route": "观察",
+          "close": 10.8,
+          "score": 12.269872
+        },
+        {
+          "code": "002905",
+          "name": "金逸影视",
+          "route": "观察",
+          "close": 10.25,
+          "score": 11.559898
+        }
+      ]
+    },
+    "HGB": {
+      "title": "HGB 稳健 Top3（23因子重建）",
+      "status": "门控关闭",
+      "note": "沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。 冻结V3池，逐月训练至 2026-10-29，分数为预期净收益。",
+      "candidates": [
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "route": "仅观察",
+          "close": 8.1,
+          "score": 0.03405
+        },
+        {
+          "code": "002425",
+          "name": "凯撒文化",
+          "route": "仅观察",
+          "close": 4.65,
+          "score": 0.020492
+        },
+        {
+          "code": "600261",
+          "name": "阳光照明",
+          "route": "仅观察",
+          "close": 5.7,
+          "score": 0.019685
+        }
+      ]
+    }
+  }
+}
