@@ -1,8 +1,9 @@
 name: 综合策略盘后候选
 on:
   schedule:
-    - cron: '50 8 * * 1-5'
-    - cron: '30 9 * * 1-5'
+    # GitHub native schedule; UTC -> Asia/Shanghai 17:00 / 18:00
+    - cron: '0 9 * * 1-5'
+    - cron: '0 10 * * 1-5'
   workflow_dispatch:
     inputs:
       date:
