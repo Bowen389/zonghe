@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20",
-  "next_session": "2026-11-23",
-  "updated_at": "2026-11-20T18:16:27+08:00",
+  "date": "2026-11-23",
+  "next_session": "2026-11-24",
+  "updated_at": "2026-11-23T18:58:15+08:00",
   "quality": {
-    "coverage": 3189,
+    "coverage": 3187,
     "missing": 118,
     "source": "daily"
   },
@@ -14,87 +14,542 @@
       "note": "展示顺序为成交额参考。E开盘确认 −5% < 缺口 ≤ −2%，缺口最深优先，同缺口按代码，正式只取1只。",
       "candidates": [
         {
-          "code": "600360",
-          "name": "华微电子",
+          "code": "603893",
+          "name": "瑞芯微",
           "route": "待缺口",
-          "close": 9.01,
+          "close": 202.88,
           "score": null
         },
         {
-          "code": "002741",
-          "name": "光华科技",
+          "code": "601689",
+          "name": "拓普集团",
           "route": "待缺口",
-          "close": 18.76,
+          "close": 52.92,
           "score": null
         },
         {
-          "code": "605577",
-          "name": "龙版传媒",
+          "code": "002242",
+          "name": "九阳股份",
           "route": "待缺口",
-          "close": 16.19,
+          "close": 31.86,
           "score": null
         },
         {
-          "code": "605058",
-          "name": "澳弘电子",
+          "code": "000636",
+          "name": "风华高科",
           "route": "待缺口",
-          "close": 42.92,
+          "close": 28.99,
           "score": null
         },
         {
-          "code": "603386",
-          "name": "骏亚科技",
+          "code": "603236",
+          "name": "移远通信",
+          "route": "待缺口",
+          "close": 81.25,
+          "score": null
+        },
+        {
+          "code": "605488",
+          "name": "福莱新材",
+          "route": "待缺口",
+          "close": 46.77,
+          "score": null
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "route": "待缺口",
+          "close": 26.68,
+          "score": null
+        },
+        {
+          "code": "603533",
+          "name": "掌阅科技",
+          "route": "待缺口",
+          "close": 24.94,
+          "score": null
+        },
+        {
+          "code": "603179",
+          "name": "新泉股份",
+          "route": "待缺口",
+          "close": 41.73,
+          "score": null
+        },
+        {
+          "code": "603127",
+          "name": "昭衍新药",
+          "route": "待缺口",
+          "close": 35.44,
+          "score": null
+        },
+        {
+          "code": "000711",
+          "name": "京蓝科技",
+          "route": "待缺口",
+          "close": 4.25,
+          "score": null
+        },
+        {
+          "code": "603667",
+          "name": "五洲新春",
+          "route": "待缺口",
+          "close": 45.76,
+          "score": null
+        },
+        {
+          "code": "600103",
+          "name": "青山纸业",
+          "route": "待缺口",
+          "close": 3.53,
+          "score": null
+        },
+        {
+          "code": "000700",
+          "name": "模塑科技",
+          "route": "待缺口",
+          "close": 14.42,
+          "score": null
+        },
+        {
+          "code": "603626",
+          "name": "科森科技",
+          "route": "待缺口",
+          "close": 23.84,
+          "score": null
+        },
+        {
+          "code": "003021",
+          "name": "兆威机电",
+          "route": "待缺口",
+          "close": 84.51,
+          "score": null
+        },
+        {
+          "code": "002046",
+          "name": "国机精工",
+          "route": "待缺口",
+          "close": 30.56,
+          "score": null
+        },
+        {
+          "code": "603920",
+          "name": "世运电路",
+          "route": "待缺口",
+          "close": 34.76,
+          "score": null
+        },
+        {
+          "code": "002565",
+          "name": "顺灏股份",
+          "route": "待缺口",
+          "close": 8.09,
+          "score": null
+        },
+        {
+          "code": "603283",
+          "name": "赛腾股份",
+          "route": "待缺口",
+          "close": 38.1,
+          "score": null
+        },
+        {
+          "code": "002708",
+          "name": "光洋股份",
+          "route": "待缺口",
+          "close": 20.99,
+          "score": null
+        },
+        {
+          "code": "002724",
+          "name": "海洋王",
+          "route": "待缺口",
+          "close": 9.6,
+          "score": null
+        },
+        {
+          "code": "002249",
+          "name": "大洋电机",
+          "route": "待缺口",
+          "close": 6.53,
+          "score": null
+        },
+        {
+          "code": "002913",
+          "name": "奥士康",
+          "route": "待缺口",
+          "close": 60.59,
+          "score": null
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "route": "待缺口",
+          "close": 14.08,
+          "score": null
+        },
+        {
+          "code": "002009",
+          "name": "天奇股份",
           "route": "待缺口",
           "close": 14.59,
           "score": null
         },
         {
-          "code": "600371",
-          "name": "万向德农",
+          "code": "603009",
+          "name": "北特科技",
           "route": "待缺口",
-          "close": 10.69,
+          "close": 45.21,
           "score": null
         },
         {
-          "code": "002548",
-          "name": "金新农",
+          "code": "601595",
+          "name": "上海电影",
           "route": "待缺口",
-          "close": 3.76,
+          "close": 32.52,
           "score": null
         },
         {
-          "code": "603948",
-          "name": "建业股份",
+          "code": "603305",
+          "name": "旭升集团",
           "route": "待缺口",
-          "close": 19.56,
+          "close": 11.36,
           "score": null
         },
         {
-          "code": "000607",
-          "name": "华媒控股",
+          "code": "001330",
+          "name": "博纳影业",
           "route": "待缺口",
-          "close": 3.73,
+          "close": 5.43,
           "score": null
         },
         {
-          "code": "002749",
-          "name": "国光股份",
+          "code": "002655",
+          "name": "共达电声",
           "route": "待缺口",
-          "close": 8.69,
+          "close": 24.17,
           "score": null
         },
         {
-          "code": "002642",
-          "name": "荣联科技",
+          "code": "000766",
+          "name": "通化金马",
           "route": "待缺口",
-          "close": 7.26,
+          "close": 10.96,
           "score": null
         },
         {
-          "code": "603004",
-          "name": "鼎龙科技",
+          "code": "000026",
+          "name": "飞亚达",
           "route": "待缺口",
-          "close": 18.22,
+          "close": 20.55,
+          "score": null
+        },
+        {
+          "code": "603278",
+          "name": "大业股份",
+          "route": "待缺口",
+          "close": 11.67,
+          "score": null
+        },
+        {
+          "code": "603337",
+          "name": "杰克科技",
+          "route": "待缺口",
+          "close": 38.94,
+          "score": null
+        },
+        {
+          "code": "002173",
+          "name": "创新医疗",
+          "route": "待缺口",
+          "close": 14.39,
+          "score": null
+        },
+        {
+          "code": "002045",
+          "name": "国光电器",
+          "route": "待缺口",
+          "close": 8.83,
+          "score": null
+        },
+        {
+          "code": "603598",
+          "name": "引力传媒",
+          "route": "待缺口",
+          "close": 18.24,
+          "score": null
+        },
+        {
+          "code": "603662",
+          "name": "柯力传感",
+          "route": "待缺口",
+          "close": 48.19,
+          "score": null
+        },
+        {
+          "code": "002896",
+          "name": "中大力德",
+          "route": "待缺口",
+          "close": 53.2,
+          "score": null
+        },
+        {
+          "code": "600838",
+          "name": "上海九百",
+          "route": "待缺口",
+          "close": 8.34,
+          "score": null
+        },
+        {
+          "code": "002931",
+          "name": "锋龙股份",
+          "route": "待缺口",
+          "close": 42.46,
+          "score": null
+        },
+        {
+          "code": "603103",
+          "name": "横店影视",
+          "route": "待缺口",
+          "close": 16.6,
+          "score": null
+        },
+        {
+          "code": "605287",
+          "name": "德才股份",
+          "route": "待缺口",
+          "close": 34.97,
+          "score": null
+        },
+        {
+          "code": "001331",
+          "name": "胜通能源",
+          "route": "待缺口",
+          "close": 28.05,
+          "score": null
+        },
+        {
+          "code": "603706",
+          "name": "东方环宇",
+          "route": "待缺口",
+          "close": 23.69,
+          "score": null
+        },
+        {
+          "code": "002164",
+          "name": "宁波东力",
+          "route": "待缺口",
+          "close": 17.94,
+          "score": null
+        },
+        {
+          "code": "603516",
+          "name": "淳中科技",
+          "route": "待缺口",
+          "close": 45.38,
+          "score": null
+        },
+        {
+          "code": "001283",
+          "name": "豪鹏科技",
+          "route": "待缺口",
+          "close": 48.61,
+          "score": null
+        },
+        {
+          "code": "603666",
+          "name": "亿嘉和",
+          "route": "待缺口",
+          "close": 25.36,
+          "score": null
+        },
+        {
+          "code": "603131",
+          "name": "上海沪工",
+          "route": "待缺口",
+          "close": 13.01,
+          "score": null
+        },
+        {
+          "code": "003032",
+          "name": "传智教育",
+          "route": "待缺口",
+          "close": 8.87,
+          "score": null
+        },
+        {
+          "code": "603286",
+          "name": "日盈电子",
+          "route": "待缺口",
+          "close": 48.94,
+          "score": null
+        },
+        {
+          "code": "603175",
+          "name": "超颖电子",
+          "route": "待缺口",
+          "close": 89.32,
+          "score": null
+        },
+        {
+          "code": "002289",
+          "name": "宇顺电子",
+          "route": "待缺口",
+          "close": 30.97,
+          "score": null
+        },
+        {
+          "code": "002248",
+          "name": "华东数控",
+          "route": "待缺口",
+          "close": 8.44,
+          "score": null
+        },
+        {
+          "code": "603051",
+          "name": "鹿山新材",
+          "route": "待缺口",
+          "close": 20.9,
+          "score": null
+        },
+        {
+          "code": "002623",
+          "name": "亚玛顿",
+          "route": "待缺口",
+          "close": 18.57,
+          "score": null
+        },
+        {
+          "code": "603901",
+          "name": "永创智能",
+          "route": "待缺口",
+          "close": 9.68,
+          "score": null
+        },
+        {
+          "code": "603166",
+          "name": "福达股份",
+          "route": "待缺口",
+          "close": 9.82,
+          "score": null
+        },
+        {
+          "code": "603528",
+          "name": "多伦科技",
+          "route": "待缺口",
+          "close": 6.2,
+          "score": null
+        },
+        {
+          "code": "002527",
+          "name": "新时达",
+          "route": "待缺口",
+          "close": 9.45,
+          "score": null
+        },
+        {
+          "code": "601177",
+          "name": "杭齿前进",
+          "route": "待缺口",
+          "close": 12.31,
+          "score": null
+        },
+        {
+          "code": "002983",
+          "name": "芯瑞达",
+          "route": "待缺口",
+          "close": 24.98,
+          "score": null
+        },
+        {
+          "code": "603037",
+          "name": "凯众股份",
+          "route": "待缺口",
+          "close": 10.52,
+          "score": null
+        },
+        {
+          "code": "001400",
+          "name": "江顺科技",
+          "route": "待缺口",
+          "close": 66.66,
+          "score": null
+        },
+        {
+          "code": "003033",
+          "name": "征和工业",
+          "route": "待缺口",
+          "close": 57.37,
+          "score": null
+        },
+        {
+          "code": "603151",
+          "name": "邦基科技",
+          "route": "待缺口",
+          "close": 20.14,
+          "score": null
+        },
+        {
+          "code": "001326",
+          "name": "联域股份",
+          "route": "待缺口",
+          "close": 57.2,
+          "score": null
+        },
+        {
+          "code": "603926",
+          "name": "铁流股份",
+          "route": "待缺口",
+          "close": 14.85,
+          "score": null
+        },
+        {
+          "code": "001360",
+          "name": "南矿集团",
+          "route": "待缺口",
+          "close": 17.49,
+          "score": null
+        },
+        {
+          "code": "605398",
+          "name": "新炬网络",
+          "route": "待缺口",
+          "close": 20.25,
+          "score": null
+        },
+        {
+          "code": "001266",
+          "name": "宏英智能",
+          "route": "待缺口",
+          "close": 29.46,
+          "score": null
+        },
+        {
+          "code": "603048",
+          "name": "浙江黎明",
+          "route": "待缺口",
+          "close": 18.92,
+          "score": null
+        },
+        {
+          "code": "002687",
+          "name": "乔治白",
+          "route": "待缺口",
+          "close": 5.64,
+          "score": null
+        },
+        {
+          "code": "003028",
+          "name": "振邦智能",
+          "route": "待缺口",
+          "close": 22.0,
+          "score": null
+        },
+        {
+          "code": "001278",
+          "name": "一彬科技",
+          "route": "待缺口",
+          "close": 13.43,
           "score": null
         }
       ]
@@ -105,94 +560,451 @@
       "note": "BF门控关闭，FB门控通过。BF先按档位和20日均额，开盘缺口 (−10.1%, +8%]。BF无可执行票才看C2 [−2.5%, +5%]、C1 [−5%, −2%]，同类按缺口升序，合计只取1只。FB盘后按代码展示，次日才定最终名次。",
       "candidates": [
         {
-          "code": "000593",
-          "name": "德龙汇能",
-          "route": "FB C1",
-          "close": 17.51,
+          "code": "000636",
+          "name": "风华高科",
+          "route": "FB C2",
+          "close": 28.99,
           "score": null
         },
         {
-          "code": "000607",
-          "name": "华媒控股",
-          "route": "FB C1",
-          "close": 3.73,
+          "code": "000766",
+          "name": "通化金马",
+          "route": "FB C2",
+          "close": 10.96,
           "score": null
         },
         {
-          "code": "000823",
-          "name": "超声电子",
-          "route": "FB C1",
-          "close": 18.51,
+          "code": "001326",
+          "name": "联域股份",
+          "route": "FB C2",
+          "close": 57.2,
           "score": null
         },
         {
-          "code": "002548",
-          "name": "金新农",
-          "route": "FB C1",
-          "close": 3.76,
+          "code": "001331",
+          "name": "胜通能源",
+          "route": "FB C2",
+          "close": 28.05,
           "score": null
         },
         {
-          "code": "002642",
-          "name": "荣联科技",
-          "route": "FB C1",
-          "close": 7.26,
+          "code": "002046",
+          "name": "国机精工",
+          "route": "FB C2",
+          "close": 30.56,
           "score": null
         },
         {
-          "code": "002741",
-          "name": "光华科技",
-          "route": "FB C1",
-          "close": 18.76,
+          "code": "002655",
+          "name": "共达电声",
+          "route": "FB C2",
+          "close": 24.17,
           "score": null
         },
         {
-          "code": "600360",
-          "name": "华微电子",
-          "route": "FB C1",
-          "close": 9.01,
+          "code": "003033",
+          "name": "征和工业",
+          "route": "FB C2",
+          "close": 57.37,
           "score": null
         },
         {
-          "code": "600371",
-          "name": "万向德农",
-          "route": "FB C1",
-          "close": 10.69,
+          "code": "603516",
+          "name": "淳中科技",
+          "route": "FB C2",
+          "close": 45.38,
           "score": null
         },
         {
-          "code": "603004",
-          "name": "鼎龙科技",
+          "code": "000026",
+          "name": "飞亚达",
           "route": "FB C1",
-          "close": 18.22,
+          "close": 20.55,
           "score": null
         },
         {
-          "code": "603386",
-          "name": "骏亚科技",
+          "code": "000559",
+          "name": "万向钱潮",
+          "route": "FB C1",
+          "close": 10.53,
+          "score": null
+        },
+        {
+          "code": "001283",
+          "name": "豪鹏科技",
+          "route": "FB C1",
+          "close": 48.61,
+          "score": null
+        },
+        {
+          "code": "001330",
+          "name": "博纳影业",
+          "route": "FB C1",
+          "close": 5.43,
+          "score": null
+        },
+        {
+          "code": "001400",
+          "name": "江顺科技",
+          "route": "FB C1",
+          "close": 66.66,
+          "score": null
+        },
+        {
+          "code": "002009",
+          "name": "天奇股份",
           "route": "FB C1",
           "close": 14.59,
           "score": null
         },
         {
-          "code": "603948",
-          "name": "建业股份",
+          "code": "002045",
+          "name": "国光电器",
           "route": "FB C1",
-          "close": 19.56,
+          "close": 8.83,
           "score": null
         },
         {
-          "code": "605018",
-          "name": "长华集团",
+          "code": "002172",
+          "name": "澳洋健康",
           "route": "FB C1",
-          "close": 10.26,
+          "close": 5.13,
           "score": null
         },
         {
-          "code": "605058",
-          "name": "澳弘电子",
+          "code": "002173",
+          "name": "创新医疗",
           "route": "FB C1",
-          "close": 42.92,
+          "close": 14.39,
+          "score": null
+        },
+        {
+          "code": "002248",
+          "name": "华东数控",
+          "route": "FB C1",
+          "close": 8.44,
+          "score": null
+        },
+        {
+          "code": "002249",
+          "name": "大洋电机",
+          "route": "FB C1",
+          "close": 6.53,
+          "score": null
+        },
+        {
+          "code": "002289",
+          "name": "宇顺电子",
+          "route": "FB C1",
+          "close": 30.97,
+          "score": null
+        },
+        {
+          "code": "002414",
+          "name": "高德红外",
+          "route": "FB C1",
+          "close": 10.41,
+          "score": null
+        },
+        {
+          "code": "002527",
+          "name": "新时达",
+          "route": "FB C1",
+          "close": 9.45,
+          "score": null
+        },
+        {
+          "code": "002565",
+          "name": "顺灏股份",
+          "route": "FB C1",
+          "close": 8.09,
+          "score": null
+        },
+        {
+          "code": "002584",
+          "name": "西陇科学",
+          "route": "FB C1",
+          "close": 8.5,
+          "score": null
+        },
+        {
+          "code": "002696",
+          "name": "百洋股份",
+          "route": "FB C1",
+          "close": 7.34,
+          "score": null
+        },
+        {
+          "code": "002703",
+          "name": "浙江世宝",
+          "route": "FB C1",
+          "close": 14.09,
+          "score": null
+        },
+        {
+          "code": "002747",
+          "name": "埃斯顿",
+          "route": "FB C1",
+          "close": 26.68,
+          "score": null
+        },
+        {
+          "code": "002815",
+          "name": "崇达技术",
+          "route": "FB C1",
+          "close": 14.96,
+          "score": null
+        },
+        {
+          "code": "002896",
+          "name": "中大力德",
+          "route": "FB C1",
+          "close": 53.2,
+          "score": null
+        },
+        {
+          "code": "002913",
+          "name": "奥士康",
+          "route": "FB C1",
+          "close": 60.59,
+          "score": null
+        },
+        {
+          "code": "002931",
+          "name": "锋龙股份",
+          "route": "FB C1",
+          "close": 42.46,
+          "score": null
+        },
+        {
+          "code": "003032",
+          "name": "传智教育",
+          "route": "FB C1",
+          "close": 8.87,
+          "score": null
+        },
+        {
+          "code": "600103",
+          "name": "青山纸业",
+          "route": "FB C1",
+          "close": 3.53,
+          "score": null
+        },
+        {
+          "code": "600814",
+          "name": "杭州解百",
+          "route": "FB C1",
+          "close": 6.9,
+          "score": null
+        },
+        {
+          "code": "600838",
+          "name": "上海九百",
+          "route": "FB C1",
+          "close": 8.34,
+          "score": null
+        },
+        {
+          "code": "601177",
+          "name": "杭齿前进",
+          "route": "FB C1",
+          "close": 12.31,
+          "score": null
+        },
+        {
+          "code": "603009",
+          "name": "北特科技",
+          "route": "FB C1",
+          "close": 45.21,
+          "score": null
+        },
+        {
+          "code": "603037",
+          "name": "凯众股份",
+          "route": "FB C1",
+          "close": 10.52,
+          "score": null
+        },
+        {
+          "code": "603051",
+          "name": "鹿山新材",
+          "route": "FB C1",
+          "close": 20.9,
+          "score": null
+        },
+        {
+          "code": "603103",
+          "name": "横店影视",
+          "route": "FB C1",
+          "close": 16.6,
+          "score": null
+        },
+        {
+          "code": "603119",
+          "name": "浙江荣泰",
+          "route": "FB C1",
+          "close": 50.82,
+          "score": null
+        },
+        {
+          "code": "603127",
+          "name": "昭衍新药",
+          "route": "FB C1",
+          "close": 35.44,
+          "score": null
+        },
+        {
+          "code": "603131",
+          "name": "上海沪工",
+          "route": "FB C1",
+          "close": 13.01,
+          "score": null
+        },
+        {
+          "code": "603166",
+          "name": "福达股份",
+          "route": "FB C1",
+          "close": 9.82,
+          "score": null
+        },
+        {
+          "code": "603175",
+          "name": "超颖电子",
+          "route": "FB C1",
+          "close": 89.32,
+          "score": null
+        },
+        {
+          "code": "603179",
+          "name": "新泉股份",
+          "route": "FB C1",
+          "close": 41.73,
+          "score": null
+        },
+        {
+          "code": "603283",
+          "name": "赛腾股份",
+          "route": "FB C1",
+          "close": 38.1,
+          "score": null
+        },
+        {
+          "code": "603286",
+          "name": "日盈电子",
+          "route": "FB C1",
+          "close": 48.94,
+          "score": null
+        },
+        {
+          "code": "603305",
+          "name": "旭升集团",
+          "route": "FB C1",
+          "close": 11.36,
+          "score": null
+        },
+        {
+          "code": "603337",
+          "name": "杰克科技",
+          "route": "FB C1",
+          "close": 38.94,
+          "score": null
+        },
+        {
+          "code": "603528",
+          "name": "多伦科技",
+          "route": "FB C1",
+          "close": 6.2,
+          "score": null
+        },
+        {
+          "code": "603533",
+          "name": "掌阅科技",
+          "route": "FB C1",
+          "close": 24.94,
+          "score": null
+        },
+        {
+          "code": "603598",
+          "name": "引力传媒",
+          "route": "FB C1",
+          "close": 18.24,
+          "score": null
+        },
+        {
+          "code": "603626",
+          "name": "科森科技",
+          "route": "FB C1",
+          "close": 23.84,
+          "score": null
+        },
+        {
+          "code": "603662",
+          "name": "柯力传感",
+          "route": "FB C1",
+          "close": 48.19,
+          "score": null
+        },
+        {
+          "code": "603666",
+          "name": "亿嘉和",
+          "route": "FB C1",
+          "close": 25.36,
+          "score": null
+        },
+        {
+          "code": "603667",
+          "name": "五洲新春",
+          "route": "FB C1",
+          "close": 45.76,
+          "score": null
+        },
+        {
+          "code": "603728",
+          "name": "鸣志电器",
+          "route": "FB C1",
+          "close": 48.97,
+          "score": null
+        },
+        {
+          "code": "603893",
+          "name": "瑞芯微",
+          "route": "FB C1",
+          "close": 202.88,
+          "score": null
+        },
+        {
+          "code": "603901",
+          "name": "永创智能",
+          "route": "FB C1",
+          "close": 9.68,
+          "score": null
+        },
+        {
+          "code": "603920",
+          "name": "世运电路",
+          "route": "FB C1",
+          "close": 34.76,
+          "score": null
+        },
+        {
+          "code": "603926",
+          "name": "铁流股份",
+          "route": "FB C1",
+          "close": 14.85,
+          "score": null
+        },
+        {
+          "code": "605287",
+          "name": "德才股份",
+          "route": "FB C1",
+          "close": 34.97,
+          "score": null
+        },
+        {
+          "code": "605288",
+          "name": "凯迪股份",
+          "route": "FB C1",
+          "close": 58.37,
           "score": null
         }
       ]
@@ -206,36 +1018,36 @@
           "code": "002771",
           "name": "真视通",
           "route": "观察",
-          "close": 15.82,
-          "score": 13.139623
-        },
-        {
-          "code": "002741",
-          "name": "光华科技",
-          "route": "观察",
-          "close": 18.76,
-          "score": 12.736515
-        },
-        {
-          "code": "603948",
-          "name": "建业股份",
-          "route": "观察",
-          "close": 19.56,
-          "score": 11.201101
+          "close": 17.4,
+          "score": 17.634428
         },
         {
           "code": "002579",
           "name": "中京电子",
           "route": "观察",
-          "close": 13.39,
-          "score": 10.724952
+          "close": 14.73,
+          "score": 17.116718
         },
         {
-          "code": "603324",
-          "name": "盛剑科技",
+          "code": "002642",
+          "name": "荣联科技",
           "route": "观察",
-          "close": 27.71,
-          "score": 9.897613
+          "close": 7.99,
+          "score": 15.937798
+        },
+        {
+          "code": "002749",
+          "name": "国光股份",
+          "route": "观察",
+          "close": 9.25,
+          "score": 14.006095
+        },
+        {
+          "code": "002703",
+          "name": "浙江世宝",
+          "route": "观察",
+          "close": 14.09,
+          "score": 12.822326
         }
       ]
     },
@@ -248,36 +1060,36 @@
           "code": "002771",
           "name": "真视通",
           "route": "可复核",
-          "close": 15.82,
-          "score": 13.139623
-        },
-        {
-          "code": "002741",
-          "name": "光华科技",
-          "route": "可复核",
-          "close": 18.76,
-          "score": 12.736515
-        },
-        {
-          "code": "603948",
-          "name": "建业股份",
-          "route": "可复核",
-          "close": 19.56,
-          "score": 11.201101
+          "close": 17.4,
+          "score": 17.634428
         },
         {
           "code": "002579",
           "name": "中京电子",
           "route": "可复核",
-          "close": 13.39,
-          "score": 10.724952
+          "close": 14.73,
+          "score": 17.116718
         },
         {
-          "code": "603324",
-          "name": "盛剑科技",
+          "code": "002642",
+          "name": "荣联科技",
           "route": "可复核",
-          "close": 27.71,
-          "score": 9.897613
+          "close": 7.99,
+          "score": 15.937798
+        },
+        {
+          "code": "002749",
+          "name": "国光股份",
+          "route": "可复核",
+          "close": 9.25,
+          "score": 14.006095
+        },
+        {
+          "code": "002703",
+          "name": "浙江世宝",
+          "route": "可复核",
+          "close": 14.09,
+          "score": 12.822326
         }
       ]
     },
@@ -290,36 +1102,36 @@
           "code": "002771",
           "name": "真视通",
           "route": "观察",
-          "close": 15.82,
-          "score": 13.66409
-        },
-        {
-          "code": "002741",
-          "name": "光华科技",
-          "route": "观察",
-          "close": 18.76,
-          "score": 11.935995
-        },
-        {
-          "code": "603324",
-          "name": "盛剑科技",
-          "route": "观察",
-          "close": 27.71,
-          "score": 10.983495
-        },
-        {
-          "code": "603948",
-          "name": "建业股份",
-          "route": "观察",
-          "close": 19.56,
-          "score": 10.847559
+          "close": 17.4,
+          "score": 16.598567
         },
         {
           "code": "002579",
           "name": "中京电子",
           "route": "观察",
-          "close": 13.39,
-          "score": 9.284494
+          "close": 14.73,
+          "score": 16.506155
+        },
+        {
+          "code": "002642",
+          "name": "荣联科技",
+          "route": "观察",
+          "close": 7.99,
+          "score": 16.448042
+        },
+        {
+          "code": "002749",
+          "name": "国光股份",
+          "route": "观察",
+          "close": 9.25,
+          "score": 13.033009
+        },
+        {
+          "code": "002548",
+          "name": "金新农",
+          "route": "观察",
+          "close": 4.14,
+          "score": 12.57273
         }
       ]
     },
@@ -332,36 +1144,36 @@
           "code": "002771",
           "name": "真视通",
           "route": "观察",
-          "close": 15.82,
-          "score": 13.139623
-        },
-        {
-          "code": "002741",
-          "name": "光华科技",
-          "route": "观察",
-          "close": 18.76,
-          "score": 12.736515
-        },
-        {
-          "code": "603948",
-          "name": "建业股份",
-          "route": "观察",
-          "close": 19.56,
-          "score": 11.201101
+          "close": 17.4,
+          "score": 17.634428
         },
         {
           "code": "002579",
           "name": "中京电子",
           "route": "观察",
-          "close": 13.39,
-          "score": 10.724952
+          "close": 14.73,
+          "score": 17.116718
         },
         {
-          "code": "603324",
-          "name": "盛剑科技",
+          "code": "002642",
+          "name": "荣联科技",
           "route": "观察",
-          "close": 27.71,
-          "score": 9.897613
+          "close": 7.99,
+          "score": 15.937798
+        },
+        {
+          "code": "002749",
+          "name": "国光股份",
+          "route": "观察",
+          "close": 9.25,
+          "score": 14.006095
+        },
+        {
+          "code": "002703",
+          "name": "浙江世宝",
+          "route": "观察",
+          "close": 14.09,
+          "score": 12.822326
         }
       ]
     },
@@ -371,25 +1183,25 @@
       "note": "沪深300收盘未高于MA20，以下Top3仅观察，本日无执行候选。 冻结V3池，逐月训练至 2026-10-29，分数为预期净收益。",
       "candidates": [
         {
-          "code": "603587",
-          "name": "地素时尚",
+          "code": "001219",
+          "name": "青岛食品",
           "route": "仅观察",
-          "close": 15.86,
-          "score": 0.038844
+          "close": 17.92,
+          "score": 0.062959
         },
         {
-          "code": "600801",
-          "name": "华新建材",
+          "code": "603366",
+          "name": "日出东方",
           "route": "仅观察",
-          "close": 27.34,
-          "score": 0.021268
+          "close": 10.02,
+          "score": 0.062095
         },
         {
-          "code": "600715",
-          "name": "文投控股",
+          "code": "600261",
+          "name": "阳光照明",
           "route": "仅观察",
-          "close": 2.74,
-          "score": 0.019206
+          "close": 4.41,
+          "score": 0.058538
         }
       ]
     }
